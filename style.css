@@ -58,6 +58,25 @@ h2, h3 {
 .logoimg { display: block; }
 .logoimg--topbar { height: 66px; border-radius: 6px; }
 .logoimg--brand { height: 52px; border-radius: 35px; }
+.topbar__center{
+  justify-self: center;
+  align-self: center;
+}
+.logoimg--topbar{
+  height: auto;               
+  width: auto;
+  max-height: 60px;           
+  max-width: min(260px, 80vw);
+  margin: 0 auto;             
+}
+
+@media (min-width: 681px){
+  .logoimg--topbar{ max-height: 66px; }
+}
+
+@media (max-width: 680px){
+  .topbar__center{ order: -1; } 
+}
 
 /* Header / Nav */
 .header { background: var(--blanco); position: sticky; top: 0; z-index: 20; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04); }
@@ -182,3 +201,4 @@ h2, h3 {
   .menu a:not(.btn) { display: none; }
   .flyers { grid-template-columns: repeat(2, 1fr); }
 }
+
