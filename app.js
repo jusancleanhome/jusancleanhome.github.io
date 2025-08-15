@@ -5,7 +5,7 @@
 
 /** Logo(s) — SOLO CAMBIA LAS RUTAS **/
 const LOGO_TOPBAR_SRC = 'assets/jusan-logo.png';        // Topbar centrado
-const LOGO_BRAND_SRC  = 'assets/juSan-logo-azul.png';   // Header (izquierda)
+const LOGO_BRAND_SRC  = 'assets/jusan-logo-azul.png';   // Header (izquierda)
 const LOGO_ALT_TEXT   = 'JuSan Clean Home';
 
 /** WhatsApp principal (botón grande del hero) **/
@@ -262,3 +262,4 @@ function openWA(number) {
     if (formMsgEl) formMsgEl.textContent = 'Abriendo WhatsApp…';
   });
 })();
+
