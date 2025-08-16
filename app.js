@@ -19,6 +19,7 @@ const REDIRIGIR_SIEMPRE_A_GOOGLE_FORM = false;
 const SLIDES = [
   { type: 'img',   src: 'assets/antes-despues-colchon-danado.png', alt: 'Limpieza de sillón - antes y después' },
   { type: 'img',   src: 'assets/colchon.jpg',                      alt: 'Lavado de colchón - resultado final' },
+   { type: 'img',   src: 'assets/respaldo-cama.png',                      alt: 'Lavado de respaldo-cama - resultado final' },
   { type: 'video', src: 'assets/demo3.mp4',                       alt: 'Proceso de lavado (video)' }
 ];
 
@@ -262,4 +263,5 @@ function openWA(number) {
     if (formMsgEl) formMsgEl.textContent = 'Abriendo WhatsApp…';
   });
 })();
+
 
